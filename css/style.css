@@ -1,0 +1,28 @@
+/*=========================
+    Basic Styles
+=========================*/
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%; 
+    --color-primary:
+    --color-accent:
+    
+}
+
+
+
+
+
+/*=========================
+    Media Queries
+=========================*/
+
+@media (min-width: 768px) {
+    
+}
+
+
