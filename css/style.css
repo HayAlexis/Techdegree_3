@@ -2,17 +2,30 @@
     Basic Styles
 =========================*/
 
-* {
-    box-sizing: border-box;
-}
-
 :root {
+    --ff: 'Roboto Slab', serif;
+    --fs-n: 300;
+    --fs-b: 600;
+
     font-size: 62.5%; 
-    --color-primary:
-    --color-accent:
+    --fs-2: rem;
+    --fs-3: rem;
+    --fs-p: rem;
     
+    
+    --clr-p: #2F323A;
+    --clr-a: #06D6A0;
+    --clr-b: #FCFCFC;
+
+    box-sizing: border-box;
+    --spacer:   
 }
 
+body {
+    background-color: var(--clr-b);
+    display: flex;
+    align-items: center;
+}
 
 
 
