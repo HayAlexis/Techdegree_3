@@ -7,35 +7,99 @@
 }
 :root {
     --ff: 'Roboto Slab', serif;
-    --fs-n: 300;
-    --fs-b: 600;
+    --fw-n: 300;
+    --fw-b: 600;
 
-    font-size: 62.5%; 
-    --fs-2: rem;
+    font-size: 62.5%;
+    --fs-2: 2rem;
     --fs-3: rem;
-    --fs-p: rem;
+    --fs-p: 1.5rem;
     
     
     --clr-p: #2F323A;
     --clr-a: #06D6A0;
+    --clr-a2:#D3D3D3;
     --clr-b: #FCFCFC;
 
     box-sizing: border-box;
+    --h1-p: 2rem;
+    --hr-p: 5%;
+    --fm-p: 5%;
+    --fm-box: 12px;
 }
 
 body {
     background-color: var(--clr-b);
     display: flex;
     text-align: center;
+    font-size: var(--fs-p);
 }
 
 h1 {
     background-color: var(--clr-p);
     color: var(--clr-a);
-    padding: 2rem;
+    padding: var(--h1-p);
     margin: 0%;
 }
 
+.hero {
+    padding: var(--hr-p);
+    color: var(--clr-p);
+}
+
+h2, legend {
+    font-weight: var(--fw-b);
+    font-size: var(--fs-2);
+}
+
+p {
+    font-size: var(--fs-p);
+}
+
+#form {
+    padding: var(--fm-p);
+    text-align: left;
+    
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: var(--fm-box);
+    background-color: var(--clr-a2);
+    border: 1px solid var(--clr-a2);
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 20px 0px 8px 0;
+    display: inline-block;
+    color: var(--clr-p);
+  }
+
+  ::placeholder, select {
+    font-style: italic;
+    text-align: right;
+    color:var(--clr-p);
+}
+
+
+
+
+button {
+    background-color:var(--clr-a);
+    color:var(--clr-b);
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+button:hover {
+    background-color:var(--clr-a);
+  }
 
 
 
