@@ -1,7 +1,10 @@
 /*=========================
     Basic Styles
 =========================*/
-
+* {
+    margin: 0;
+    padding: 0;
+}
 :root {
     --ff: 'Roboto Slab', serif;
     --fs-n: 300;
@@ -18,14 +21,21 @@
     --clr-b: #FCFCFC;
 
     box-sizing: border-box;
-    --spacer:   
 }
 
 body {
     background-color: var(--clr-b);
     display: flex;
-    align-items: center;
+    text-align: center;
 }
+
+h1 {
+    background-color: var(--clr-p);
+    color: var(--clr-a);
+    padding: 2rem;
+    margin: 0%;
+}
+
 
 
 
