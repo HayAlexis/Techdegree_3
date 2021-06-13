@@ -28,6 +28,7 @@
     --fm-p: 5%;
     --fm-box: 12px;
     --cc-p: 2rem;
+    --hero-p: 0rem 1rem;
 }
 
 body {
@@ -166,6 +167,7 @@ label {
     flex-direction: column;
     display: inline-block;
     width: 100%;
+    padding: .5rem 0rem;
 }
 
 .p1 {
@@ -173,8 +175,7 @@ label {
 }
 
 .p2 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin: 2rem 0rem 1rem;
 }
 
 #topics {
