@@ -139,28 +139,6 @@ label[for~="zip"] {
     text-align: left;
 }
 
-ul {
-    list-style-type:none;
-}
-
-li:first-child {
-    padding-top: 2rem;
-}
-
-li:nth-child(1),
-li:nth-child(2),
-li:nth-child(3),
-li:nth-child(4),
-li:nth-child(5),
-li:nth-child(6) {
-    padding-bottom: 1.5rem;
-}
-
-li:last-child, 
-.other {
-    padding-bottom: 2rem;
-}
-
 #form {
     padding: var(--fm-p);
     text-align: left;
@@ -186,9 +164,31 @@ label {
 }
 
 .flexbox {
+    flex-direction: column;
     display: inline-block;
+    width: 100%;
 }
 
+input[type="checkbox"],
+input[type="radio"] {
+    width: 50%;
+    margin-left: -6.5rem;
+}
+
+label[for="html_news"],
+label[for="css"],
+label[for="js"] {
+    width: 50%;
+    margin-left: -6.5rem;
+    margin-right: 15rem;
+}
+
+label[for="html"],
+label[for="plain_text"] {
+    width: 50%;
+    margin-left: -6.5rem;
+    margin-right: 20rem;
+}
 
 button {
     background-color:var(--clr-a);
