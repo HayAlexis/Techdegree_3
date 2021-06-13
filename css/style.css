@@ -38,6 +38,11 @@ body {
     max-height: 1vh;
 }
 
+#form {
+    padding: var(--fm-p);
+    text-align: left;
+}
+
 #info {
     background-color: var(--clr-b2);
 }
@@ -135,11 +140,6 @@ label[for~="zip"] {
     margin-bottom: 2rem;
 }
 
-#form {
-    padding: var(--fm-p);
-    text-align: left;
-}
-
 input, select, textarea {
     padding: var(--fm-box);
     background-color: var(--clr-a2);
@@ -166,27 +166,6 @@ label {
     flex-direction: column;
     display: inline-block;
     width: 100%;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-    width: 50%;
-    margin-left: -6.5rem;
-}
-
-label[for="html_news"],
-label[for="css"],
-label[for="js"] {
-    width: 50%;
-    margin-left: -6.5rem;
-    margin-right: 15rem;
-}
-
-label[for="html"],
-label[for="plain_text"] {
-    width: 50%;
-    margin-left: -6.5rem;
-    margin-right: 20rem;
 }
 
 .p1 {
@@ -234,20 +213,14 @@ button:hover {
 =========================*/
 
 @media (min-width: 768px) {
-    main, 
-    footer {
+
+    #container {
         margin-left: 20%;
         margin-right: 20%;
     }
 
-    .contact_containter li {
-        display: flex;
-        align-items: center;
+    #form {
+        padding: 0;
     }
 
-    .contact_containter li label {
-        width: 50%;
-    }
 }
-
-
