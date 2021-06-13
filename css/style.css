@@ -35,7 +35,6 @@ body {
     text-align: center;
     font-size: var(--fs-p);
     border: none;
-    padding: 2rem;
     max-height: 1vh;
 }
 
@@ -47,7 +46,7 @@ h1 {
     background-color: var(--clr-p);
     color: var(--clr-a);
     padding: var(--h1-p);
-    margin: -2rem;
+    margin-bottom: 2rem;
     font-size: var(--fs-h1);
 }
 
@@ -57,8 +56,8 @@ h1 {
 }
 
 h2 {
-    padding: 1rem;
-} 
+    margin: 1rem;
+}
 
 h2, legend {
     font-weight: var(--fw-b);
@@ -72,6 +71,7 @@ p {
 hr.thick {
 	border-top: 5px solid var(--clr-p);
     padding: 1px;
+    margin-top: 2rem;
 }
 
 hr.skinny {
@@ -89,7 +89,7 @@ fieldset {
 }
 
 legend {
-    padding: 2rem 0 2rem 0;
+    padding: 1rem 0 1rem 0;
 }
 
 .contact_info {
@@ -132,6 +132,7 @@ label[for~="zip"] {
     border-radius: .5rem;
     background-color: var(--clr-a2);
     padding: var(--fm-box);
+    margin-bottom: 2rem;
 }
 
 #newsletter {
@@ -160,45 +161,12 @@ li:last-child,
     padding-bottom: 2rem;
 }
 
-input[type=checkbox],
-input[type=radio] {
-    margin-right: 10px;
-}
-
-.radio {
-    display: flex;
-    text-align: center;
-    font-size: var(--fs-p);
-}
-
-h1 {
-    background-color: var(--clr-p);
-    color: var(--clr-a);
-    padding: var(--h1-p);
-    margin: 0%;
-}
-
-.hero {
-    padding: var(--hr-p);
-    color: var(--clr-p);
-}
-
-h2, legend {
-    font-weight: var(--fw-b);
-    font-size: var(--fs-2);
-}
-
-p {
-    font-size: var(--fs-p);
-}
-
 #form {
     padding: var(--fm-p);
     text-align: left;
 }
 
 input, select, textarea {
-    width: 100%;
     padding: var(--fm-box);
     background-color: var(--clr-a2);
     border: 1px solid var(--clr-a2);
@@ -217,15 +185,10 @@ label {
     color:var(--clr-p);
 }
 
-#html_news {
-    display: flex;
-    flex-direction: column;
+.flexbox {
+    display: inline-block;
 }
 
-
-#class {
-    padding-bottom: var(--cc-p);
-}
 
 button {
     background-color:var(--clr-a);
