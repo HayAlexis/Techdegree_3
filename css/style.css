@@ -170,6 +170,14 @@ label {
     padding: .5rem 0rem;
 }
 
+label[for="html_news"],
+label[for="css"],
+label[for="js"],
+label[for="html"],
+label[for="plain_text"] {
+    margin: 0rem 1rem;
+}
+
 .p1 {
     margin-bottom: 1rem;
 }
@@ -223,5 +231,23 @@ button:hover {
     #form {
         padding: 0;
     }
+
+    .con{
+        display: inline-block;  
+    }
+
+
+    /*input[id=name], 
+    input[id=email],
+    input[id=phone],
+    input[id=street],
+    input[id=city],
+    select[id=state],
+    textarea[id=topics] {
+        width: 70%;
+        align-self: flex-end;
+    }*/
+
+    
 
 }
