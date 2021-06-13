@@ -135,10 +135,6 @@ label[for~="zip"] {
     margin-bottom: 2rem;
 }
 
-#newsletter {
-    text-align: left;
-}
-
 #form {
     padding: var(--fm-p);
     text-align: left;
@@ -162,6 +158,9 @@ label {
     text-align: right;
     color:var(--clr-p);
 }
+
+
+/*Newletter Section*/
 
 .flexbox {
     flex-direction: column;
@@ -189,6 +188,21 @@ label[for="plain_text"] {
     margin-left: -6.5rem;
     margin-right: 20rem;
 }
+
+.p1 {
+    margin-bottom: 1rem;
+}
+
+.p2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#topics {
+    padding: 3rem;
+}
+
+/*Sign Up Button*/
 
 button {
     background-color:var(--clr-a);
