@@ -21,6 +21,7 @@
     --clr-a2:#D3D3D3;
     --clr-b: #FCFCFC;
     --clr-b2: #e6fcea;
+    --clr-bf: #800000;
 
     box-sizing: border-box;
     --h1-p: 2rem;
@@ -42,6 +43,7 @@ body {
 #form {
     padding: var(--fm-p);
     text-align: left;
+    background-color: var(--clr-b2);
 }
 
 #info {
@@ -122,6 +124,15 @@ textarea[id=topics] {
     color:var(--clr-a3);
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+#zip:focus,
+button:focus {
+    background-color: var(--clr-bf);
+    color: var(--clr-b);
+}
+
 .contact_containter {
     display: flex;
     flex-direction: column;
@@ -159,7 +170,6 @@ label {
     text-align: right;
     color:var(--clr-p);
 }
-
 
 /*Newletter Section*/
 
@@ -233,21 +243,23 @@ button:hover {
     }
 
     .con{
-        display: inline-block;  
+        display: flex;   
+        margin: 1rem 0;    
     }
 
+    .con label {
+        max-width: 130px;
+        padding: 1rem 0rem;
+    }
 
-    /*input[id=name], 
-    input[id=email],
-    input[id=phone],
-    input[id=street],
-    input[id=city],
-    select[id=state],
-    textarea[id=topics] {
-        width: 70%;
-        align-self: flex-end;
-    }*/
+    .con label,
+    .con input,
+    .con select {
+        width: 100%;
+    }
 
-    
+    #zip {
+        width: 25%;
+    }
 
 }
