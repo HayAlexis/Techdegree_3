@@ -132,6 +132,7 @@ textarea:focus,
 button:focus {
     background-color: var(--clr-bf);
     color: var(--clr-b);
+    transition: all 2s;
 }
 
 .contact_containter {
@@ -162,7 +163,6 @@ input, select, textarea {
 }
 
 label {
-    padding: 20px 0px 8px 0;
     color: var(--clr-p);
   }
 
